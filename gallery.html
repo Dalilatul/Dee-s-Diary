@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dee's Web</title>
+    <style>
+        /* General Styling */
+        body {
+            background-color: lavenderblush;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: script;
+            text-align: center;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: darkblue;
+        }
+
+        /* Navigation Bar Styling */
+        .navbar {
+            overflow: hidden;
+            background-color: #f4f4f4; /* Dark background for menu bar */
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            color: white;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: black;
+            padding: 14px 20px;
+            background-color: inherit;
+            font-family: inherit; /* Match the font of the navbar */
+            margin: 0;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .navbar a, .dropdown .dropbtn {
+            transition: background-color 0.3s;
+        }
+
+        /* Section Styling */
+        .w3-container {
+            background-color: beige;
+            color: black;
+            padding: 20px;
+        }
+
+        .w3-card {
+            margin: 15px 0;
+        }
+
+        .w3-row-padding {
+            margin-top: 20px;
+            display: flex; 
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .w3-third {
+            width: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 20px; /* Added margin for spacing */
+        }
+
+        .w3-card img {
+            width: 100%; /* Ensure images cover the full width of the card */
+            height: 200px; /* Fixed height for all images */
+            object-fit: cover; /* Make sure images maintain aspect ratio and fill the space */
+        }
+
+        .w3-container h5 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>WELCOME TO DEE'S WEBSITE</h1>
+    </center>
+    <hr>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="bio.html">About Me</a>
+        <div class="dropdown">
+            <button class="dropbtn">More &#9662;</button>
+            <div class="dropdown-content">
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="w3-container">
+        <h1>My Other Half</h1>
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="family.jpg" alt="Family">
+                <div class="w3-container">
+                    <h5>Hashimida Family</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="nephew.jpg" alt="Niece">
+                <div class="w3-container">
+                    <h5>Niece</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="jogging.jpg" alt="Close Friend">
+                <div class="w3-container">
+                    <h5>Close Friend</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="silat.jpg" alt="Second Family">
+                <div class="w3-container">
+                    <h5>Second Family</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="siblings.jpg" alt="At Hometown">
+                <div class="w3-container">
+                    <h5>Mine Younger</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="bestie 2.jpg" alt="Adhoc">
+                <div class="w3-container">
+                    <h5>Uni Bestie</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+</html>
